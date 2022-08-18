@@ -1,0 +1,463 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: 'Fjalla One', sans-serif;
+    background: rgb(51, 52, 52);
+    
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+  
+}
+
+.nav-main img{
+    width: 60px;
+    margin-left: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav-main{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 15px;
+    background: rgb(3, 3, 3);
+    box-shadow: 10px 2px 10px   rgb(126, 121, 121);
+    letter-spacing: 2px;
+ 
+}
+
+.nav-main ul{
+   display: flex;
+   margin-right: 500px;
+}
+
+.nav-main ul li{
+    padding: 20px;
+    
+    
+    
+}
+.nav-main .inicio a {
+    font-weight: bold;
+    background-color: rgb(66, 191, 232);
+    color: white !important;
+    padding: 10px 30px 10px 30px;
+
+    
+}
+
+.redes{
+    display: grid;
+    grid-template-columns: 5% 5% 5%;
+    
+    
+   
+    
+}
+
+.redes a{
+   
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 150px;
+   
+    
+}
+
+.redes .insta{
+    font-size: 100px;
+}
+
+.fa-brands{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    transition: all .5s;
+    padding: .7rem;
+    
+}
+
+.fa-instagram{
+    background: brown;
+    
+   
+}
+
+.fa-whatsapp{
+    background: green;
+    
+}
+
+.fa-github{
+    background: red;
+    
+}
+
+.fa-brands:hover{
+padding-right: 70px;
+border-radius: 0 5px 5px;
+box-shadow: 0 0 2px;
+}
+
+.presentacion{
+    display: grid;
+    grid-template-columns: 60% 10%;
+    
+    
+    margin-top: 80px;
+    color: white;
+
+}
+
+.presentacion h1{
+    font-size: 50px;
+}
+
+.presentacion h2{
+    opacity: 50%;
+}
+
+.presentacion p{
+    white-space: pre-line;
+    padding-top: 10px;
+}
+
+.presentacion .contactame{
+    
+ display: inline-block;
+ cursor: pointer;
+ border: 0;
+ font-weight: bold;
+ background-color:  rgb(66, 191, 232);
+ color: rgb(0, 0, 0) !important;
+ padding: 20px 20px 20px 20px;
+ margin-top: 50px;
+ 
+
+
+
+
+}
+
+
+
+
+.presentacion .introduccion{
+    margin-left: 150px;
+    margin-top: 150px;
+    
+
+}
+
+.presentacion .introduccion span{
+    color: rgb(66, 191, 232);
+    
+}
+
+.introduccion{
+    display: inline-block;
+}
+
+
+
+.introduccion h1{
+    display: block;
+    white-space: nowrap;
+    width: 22ch;
+    border-left: 1px solid black;
+    animation: escribe 2s steps(22),mal 5s step-end alternate ;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s; 
+    overflow: hidden;
+    
+
+}
+
+.introduccion p{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 20px;
+}
+
+
+
+
+@keyframes escribe{
+    from {
+        width:0;
+    }
+
+   
+}
+
+@keyframes mal{
+    50%{border-color: transparent;}
+}
+
+.sobremi{
+    width: 100%;
+    margin: auto;
+    
+}
+
+.myself{
+    
+    padding-left: 150px;
+    background: rgb(23, 17, 17);
+    padding-top: 20px;
+}
+
+.myself h1{
+    font-size: 50px;
+    color: white;
+    
+}
+
+.myself p{
+    margin-top: 50px;
+    white-space: pre-line ;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: white;
+    font-size: 20px;
+
+}
+ .sobremi .contactame{
+ display: inline-block;
+ cursor: pointer;
+ border: 0;
+ font-weight: bold;
+ background-color:  rgb(66, 191, 232);
+ color: rgb(0, 0, 0) !important;
+ padding: 20px 20px 20px 20px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ }
+
+.habilidades{
+
+    list-style: none;
+    width: 100%;
+    text-transform: uppercase;
+    
+    
+}
+
+.skills h1{
+   text-align: center;
+    
+   
+}
+
+.skills h3{
+    text-align: center;
+    margin-right: 110px;
+}
+
+.skills{
+    background: rgb(28, 26, 26);
+    width: 500px;
+    margin: 50px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 25px rgb(0, 0, 0, 0.25),0 10px 20px rgb(0, 0, 0, 0.20);
+}
+
+.skills li{
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.bar{
+    background: rgb(35, 62, 72);
+    display: block;
+    height: 20px;
+    border: 2px solid rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 5px rgb(0, 0, 0, 0.20),0 1px 2px rgb(0, 0, 0, 0.20);
+    transition: all 0.3s cubic-bezier(.25,.9,.25,.1);
+    
+}
+
+.bar:hover{
+    box-shadow: 0 10px 19px rgb(0, 0, 0, 0.20),0 20px 20px rgb(0, 0, 0, 0.20);
+    
+
+}
+
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(101, 201, 244)0%,rgb(118, 168, 230)100%);
+
+}
+
+ .html{
+    width: 100%;
+    animation: html 5s;
+    animation-iteration-count: infinite;
+}
+
+.css{
+    width: 90%;
+    animation: css 5s;
+    animation-iteration-count: infinite;
+}
+
+.sass{
+    width: 80%;
+    animation: sass 5s;
+    animation-iteration-count: infinite;
+}
+
+.javascript{
+    width: 20%;
+    animation: java-script 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes html{
+    0%{
+        width: 0;
+    }
+     
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0;
+    }
+     
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes sass{
+    0%{
+        width: 0;
+    }
+     
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes java-script{
+    0%{
+        width: 0;
+    }
+     
+    100%{
+        width: 20%;
+    }
+}
+
+.trabajos{
+    width: 100%;
+    margin: auto;
+    background: rgb(28, 26, 26);
+}
+
+.ejemplo{
+    display: inline-block;
+   margin-top: 100px;
+   margin-left: 50px;
+   padding: 20px 20px 20px 20px;
+   background: rgb(103, 97, 97);
+   border-radius: 20px ;
+   margin-bottom: 50px;
+   
+   
+  
+}
+
+.ejemplo h2{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.trabajos h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+
+.ejemplo p{
+    font-size: 20px;
+    color: white;
+    white-space: pre-line;
+}
+
+.ejemplo img {
+   width: 500px;
+   opacity: 50%;
+}
+
+.ejemplo a{
+    display: inline-block;
+    cursor: pointer;
+    border: 0;
+    font-weight: bold;
+    background-color:  rgb(66, 191, 232);
+    color: rgb(0, 0, 0) !important;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+   
+   
+    }
+
+.final{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    background: black;
+    box-shadow: 10px 2px 10px   rgb(126, 121, 121);
+    padding-top: 20px;
+}
+
+.final .nombre h1{
+    color: white;
+    display: block;
+    white-space: nowrap;
+    width: 22ch;
+    border-left: 1px solid black;
+    animation: escribe 5s steps(22),mal 5s step-end alternate ;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s; 
+    overflow: hidden;
+}
+
+.final .nombre span{
+    color: rgb(66, 191, 232); 
+}
+
+.final .icono img {
+    width: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+   
+        
